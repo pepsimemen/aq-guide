@@ -1,13 +1,13 @@
 {
-    "servers": ["https://raw.githubusercontent.com/Kaseaa/tera-guide/master/"],
-    "supportUrl": "https://github.com/Kaseaa/tera-guide/issues",
-    "name": "tera-guide",
-    "author": "Kasea",
-    "dependencies": {
-        "library": "https://raw.githubusercontent.com/Kaseaa/library/master/module.json"
-    },
+    "disableAutoUpdate": true,
+    "name": "AQ Guide",
     "options": {
-        "guiName": "Tera Guide"
+        "niceName": "AQ Guide",
+        "guiName": "AQ Guide"
     },
-    "description": "Guides you in Tera"
+    "author": "ZC,Pepsi,Witch-Hue",
+    "description": "Akalath Quarantine Guide",
+    "servers": ["https://raw.githubusercontent.com/pepsimemen/AQ-Guide/master/"],
+    "supportUrl": "https://github.com/pepsimemen/AQ-Guide/issues",
+    "version": "86.06"
 }

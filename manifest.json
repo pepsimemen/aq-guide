@@ -1,21 +1,29 @@
 {
     "files": {
-        "config.json": "b56701c0166c8ce6fa8e22c7b9d775ae2797ead50411acec53d5a9a13431b115",
-        "dispatch.js": "521dce3d7a3f4aa1a985998a635cfeb6114155d762dc211bb8d27162de1aea90",
-        "index.js": "7bb6c75724ee2099e7189c825d7eae8c987ffd79d3aba85f59f99f2614b77aa8",
-        "lib.js": "f4eb0275e953f0abb72708b7e068c0f3b0a84e09afa0eca1d80f13f2b316421a",
-        "LICENSE": "7f2ae2125b491e75c546a5d538f82ad4431d5d6b1bbd4aea724864a21daeca63",
-        "readme.md": "f280a8d0dd0678983d82a1986f410aca986890b3ee70434b44fee73bbef899ad",
-        "guides/9034.js": "19c64a4edcc64c03b0d491bd6ad7a8bc530c29f896e6627ef10869a0f519e30e",
-        "guides/9044.js": {
-            "hash": "41e94ed19b68473d65a5fb731665a9448b6ac37af7d45d07694d00a7ba045dac",
-            "overwrite": false
-        },
-        "guides/9720.js": "97e22d38be7eef7329f8dc66b6d21eca6acaa02cfec3450a24934ae9e83d85ca",
-        "guides/9920.js": "02948b350cbcb93e1ad593d40fd4d5f2cecae6b4a1c3ae726a99d25e6c35d087",
-        "guides/9920_old.js": "bf2ec9b452d2bbedc77dfc3a1ee61c522fff054f8b8afe3ebc265ef5252c166f",
-        "guides/9950.js": "640beb30746d70b83d2662db3655697de0a3d04a7a8d7f5e7ee67f105c408775",
-        "guides/9970.js": "7e657275587befea92e50f2d011f6dfb3732396bef1ca8dbcf795fab65e53adb"
+        "boss.js": "90aa8eb3b37c4e4db23915348828dc1c29f2889405d9fbb7f773f605f473f4ab",
+        "index.js": "30d937f60f0a2647b8860d502223593bdd6763c795619720d9add9ba07dc83bd",
+        "module.json": "288c43581ba29c9fd025504a7e022a6840afc3b2953b11094adc9dc52888323d",
+        "readme.md": "fb5b94d1f526ce82fe1035ec75e56c470f10d9c2b3135fb63b93334346a84d43"
     },
-    "defs": {}
+    "defs": {
+        "C_PLAYER_LOCATION": 5,
+        "S_ABNORMALITY_BEGIN": 4,
+        "S_ABNORMALITY_END": 1,
+        "S_ABNORMALITY_REFRESH": 2,
+        "S_ACTION_STAGE": 9,
+        "S_BOSS_GAGE_INFO": 3,
+        "S_CHAT": 3,
+        "S_DESPAWN_BUILD_OBJECT": 2,
+        "S_DESPAWN_COLLECTION": 2,
+        "S_DESPAWN_DROPITEM": 4,
+        "S_LEAVE_PARTY": 1,
+        "S_LEAVE_PARTY_MEMBER": 2,
+        "S_PARTY_MEMBER_LIST": 7,
+        "S_QUEST_BALLOON": 1,
+        "S_SPAWN_BUILD_OBJECT": 2,
+        "S_SPAWN_COLLECTION": 4,
+        "S_SPAWN_DROPITEM": 8,
+        "S_SPAWN_NPC": 11,
+        "S_SPAWN_PROJECTILE": 5
+    }
 }
