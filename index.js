@@ -99,7 +99,7 @@ module.exports = function Tera_Guide(mod) {
 		}
 	})
 	
-	mod.hook('S_PARTY_MEMBER_LIST', 7, (event) => {
+	mod.hook('S_PARTY_MEMBER_LIST', 9, (event) => {
 		partyMembers = event.members;
 	})
 	
@@ -114,7 +114,7 @@ module.exports = function Tera_Guide(mod) {
 	function load() {
 		if (!hooks.length) {
 			hook('S_BOSS_GAGE_INFO',        3, sBossGageInfo);
-			hook('S_SPAWN_NPC',            11, sSpawnNpc);
+			hook('S_SPAWN_NPC',            12, sSpawnNpc);
 			hook('S_SPAWN_PROJECTILE',      5, sSpawnProjectile);
 			hook('S_QUEST_BALLOON',         1, sQuestBalloon);
 			hook('S_ABNORMALITY_BEGIN',     4, UpdateAbnormality);
